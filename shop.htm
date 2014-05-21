@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>纪念空间-彼岸-致力于中国最好的网上殡仪馆平台</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/all.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+  <script src="js/core.js"></script>
+</head>
+<body style="background:#e6e6e4;">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.htm">彼岸</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.htm">首页</a></li>
+            <li><a href="#about">我关注的</a></li>
+            <li><a href="#contact">我的订单</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right" role="form">
+          	<a class="btn btn-primary btn-sm" role="button" href="">创建一个纪念空间</a>
+            <div class="form-group">
+              <input type="text" placeholder="search" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">搜索</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+  <div class="role">
+      <div class="shop_slide">
+          <div class="mine"><img src="img/slide_head.png" alt=""><a href=""></a></img></div>
+          <ul class="slide_nav">
+            <li><a href="" class="slide_active">动态</a></li>
+            <li><a href="">我建立的</a></li>
+            <li><a href="">我关注的</a></li>
+            <li><a href="">我的订单</a></li>
+            <li><a href="">扫墓商城</a></li>
+          </ul>
+      </div>
+      <div class="shop_head">
+          <div class="mine_name">
+              <h4>KLAUS</h4>
+              <div class="mine_right">
+                  <a href="" class="dynamic_button btn">设置头像</a>
+                  <a href="" class="dynamic_button btn">编辑资料 </a>
+              </div>
+          </div>
+          <div class="mine2">
+          <dl class="mine_num">
+              <dt>2</dt>
+              <dd>创建空间</dd>
+          </dl>
+          <dl class="mine_num">
+              <dt>5</dt>
+              <dd>关注空间</dd>
+          </dl>
+          <dl class="mine_num">
+              <dt>10</dt>
+              <dd>亲友数量</dd>
+          </dl>
+          <dl class="mine_num">
+              <dt>1</dt>
+              <dd>扫墓订单</dd>
+          </dl>
+          </div>
+          <div class="mine_intro">
+              <strong>个人简介:</strong>
+              <p>我要吃麦当劳</p>
+          </div>
+      </div>
+      <div class="shop_option">
+          <h4>扫墓商城</h4>
+          <div class="shop_contact">
+              <h4>墓地地址</h4>
+            <form class="select_address">
+              <select class="form-control2">
+                <option>浙江</option>
+                <option>四川</option>
+                <option>黑龙江</option>
+                <option>陕西</option>
+                <option>山西</option>
+                <option>海南</option>
+                <option>西藏</option>
+                <option>青海</option>
+                <option>广东</option>
+              </select>
+              <select class="form-control2">
+                <option>杭州</option>
+                <option>嘉兴</option>
+                <option>绍兴</option>
+                <option>温州</option>
+                <option>台州</option>
+                <option>丽水</option>
+                <option>湖州</option>
+                <option>宁波</option>
+              </select>
+              <select class="form-control2">
+                <option>西湖</option>
+                <option>滨江区</option>
+                <option>下沙区</option>
+                <option>萧山区</option>
+                <option>拱墅区</option>
+              </select>
+              <textarea rows="2" cols="20" name="address"></textarea>
+            </form>
+          </div>
+          <div class="shop_contact">
+            <h4>扫墓日期</h4>
+            <form class="select_address">
+              <select class="form-control2">
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+              </select>
+              <select class="form-control2">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <input type="text" class="phone" placeholder="时">
+              <input type="text" class="phone" placeholder="分">
+              <textarea rows="2" cols="20" name="address" value="若需要送货上门请输入地址，默认为区域提货点">
+              </textarea>
+            </form>
+          </div>
+          <div class="shop_contact">
+              <h4>您的联系方式</h4>
+              <label for="name" >称呼</label>
+              <input type="text">
+              <label for="phone" class="phone">手机</label>
+              <input type="text">
+          </div>
+          <div class="shop_contact">
+            <center>
+              <h2>带扫服务</h2>
+              <img id="tick1" src="img/confirm.png" alt="" onclick="tick()">
+              </center> 
+          </div>
+          <div class="shop_rank">
+              <label for="">分类</label>
+              <select class="form-control2">
+                <option>花类</option>
+                <option>纸钱</option>
+                <option>食物</option>
+                <option>水果</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <label for="">价格</label>
+              <select class="form-control2">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <label for="">销量</label>
+              <select class="form-control2">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <label for="">人气</label>
+              <select class="form-control2">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <a class="btn btn-primary btn-sm" href="confirm1.htm">提交订单</a>
+          </div>
+      </div>
+      <div class="shop_content">
+          <div class="buy">
+            <div class="buy_img"><img src="img/flow1.png" alt=""></div>
+            <a>很高级的菊花</a>
+            <div class="price">
+                <a>￥10</a>
+                <label for="num">数量</label>
+                <select class="form-control3">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+                <img src="img/sm_confirm.png" id="tick2" class="shop_confirm" onclick="tickq()" alt="">
+            </div>
+          </div>
+          <div class="buy">
+            <div class="buy_img"><img src="img/flow2.png" alt=""></div>
+            <a>很高级的菊花</a>
+            <div class="price">
+                <a>￥10</a>
+                <label for="num">数量</label>
+                <select class="form-control3">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+                <img src="img/sm_confirm.png" id="tick3" class="shop_confirm" onclick="tickw()"  alt="">
+            </div>
+          </div>
+          <div class="buy">
+            <div class="buy_img"><img src="img/flow3.png" alt=""></div>
+            <a>很高级的菊花</a>
+            <div class="price">
+                <a>￥10</a>
+                <label for="num">数量</label>
+                <select class="form-control3">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+                <img src="img/sm_confirm.png" id="tick4" class="shop_confirm" onclick="ticke()" alt="">
+            </div>
+          </div>
+          <div class="buy">
+            <div class="buy_img"><img src="img/flow4.png" alt=""></div>
+            <a>很高级的菊花</a>
+            <div class="price">
+                <a>￥10</a>
+                <label for="num">数量</label>
+                <select class="form-control3">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+                <img src="img/sm_confirm.png" class="shop_confirm" alt="">
+            </div>
+          </div>
+          <div class="buy">
+            <div class="buy_img"><img src="img/flow5.png" alt=""></div>
+            <a>很高级的菊花</a>
+            <div class="price">
+                <a>￥10</a>
+                <label for="num">数量</label>
+                <select class="form-control3">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+                <img src="img/sm_confirm.png" class="shop_confirm" alt="">
+            </div>
+          </div>
+          <div class="buy">
+            <div class="buy_img"><img src="img/flow6.png" alt=""></div>
+            <a>很高级的菊花</a>
+            <div class="price">
+                <a>￥10</a>
+                <label for="num">数量</label>
+                <select class="form-control3">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+                <img src="img/sm_confirm.png" class="shop_confirm" alt="">
+            </div>
+          </div>
+          <div class="buy">
+            <div class="buy_img"><img src="img/flow7.png" alt=""></div>
+            <a>很高级的菊花</a>
+            <div class="price">
+                <a>￥10</a>
+                <label for="num">数量</label>
+                <select class="form-control3">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+                <img src="img/sm_confirm.png" class="shop_confirm" alt="">
+            </div>
+          </div>
+          <div class="buy">
+            <div class="buy_img"><img src="img/flow8.png" alt=""></div>
+            <a>很高级的菊花</a>
+            <div class="price">
+                <a>￥10</a>
+                <label for="num">数量</label>
+                <select class="form-control3">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+                <img src="img/sm_confirm.png" class="shop_confirm" alt="">
+            </div>
+          </div>
+          <div class="buy">
+            <div class="buy_img"><img src="img/flow8.png" alt=""></div>
+            <a>很高级的菊花</a>
+            <div class="price">
+                <a>￥10</a>
+                <label for="num">数量</label>
+                <select class="form-control3">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+                <img src="img/sm_confirm.png" class="shop_confirm" alt="">
+            </div>
+          </div>
+        <div class="page">
+       <ul class="pagination">
+         <li><a href="" class="btn btn-default"><span><</span></a></li>
+         <li><a href="" class="btn btn-default">1</a></li>
+         <li><a href="" class="btn btn-default">2</a></li>
+         <li><a href="" class="btn btn-default">3</a></li>
+         <li><a href="" class="btn btn-default">4</a></li>
+         <li><a href="" class="btn btn-default">5</a></li>
+         <li><a href="" class="btn btn-default">6</a></li>
+         <li><a href="" class="btn btn-default">7</a></li>
+         <li><a href="" class="btn btn-default">8</a></li>
+         <li><a href="" class="btn btn-default">></a></li>
+       </ul>
+       </div>
+      </div>
+  </div>
+
+</body>
+</html>
